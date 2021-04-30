@@ -17,16 +17,17 @@ public class GetAPITest extends TestBase{
 	RestClient restClient ;
 	
 	TestBase testBase;
-	@BeforeMethod
-	public void setUp() throws ClientProtocolException, IOException {
-		testBase = new TestBase();
-		serviceUrl = prop.getProperty("URL");
-		apiUrl = prop.getProperty("serviceURL");
-		
-		url = serviceUrl + apiUrl ;
-		
-		
-	}
+	
+//	@BeforeMethod
+//	public void setUp() throws ClientProtocolException, IOException {
+//		testBase = new TestBase();
+//		serviceUrl = prop.getProperty("URL");
+//		apiUrl = prop.getProperty("serviceURL");
+//		
+//		url = serviceUrl + apiUrl ;
+//		
+//		
+//	}
 	
 	@Test
 	public void getAPITest() throws ClientProtocolException, IOException {
