@@ -19,12 +19,13 @@ import com.qa.util.TestUtil;
 
 public class GetApiTestAdvance extends TestBase {
 	
+	TestBase testBase;
 	String serviceUrl ;
 	String apiUrl ;
 	String url;
 	RestClient restClient ;
 	
-	TestBase testBase;
+	
 	CloseableHttpResponse closeableHttpResponse;
 	
 	
