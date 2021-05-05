@@ -1,3 +1,11 @@
+
+/*
+ * Naveen Automation Labs HTTPClient Post call class
+ * URL for Video:
+ * https://www.youtube.com/watch?v=kV8UKPh-HBM&list=RDCMUCXJKOPxx4O1f63nnfsoiEug&start_radio=1&t=3433s&ab_channel=NaveenAutomationLabs
+ * Title: Automate Rest POST Call using HTTP Client - Rest API Automation - Part-5
+ */
+
 package com.qa.tests;
 
 import java.io.File;
